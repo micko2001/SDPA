@@ -50,7 +50,7 @@ void dequeue_item(void){
 }
 
 void print_item(void){
-	if(!is_empty){
+	if(!is_empty()){
 		printf("==============\nData queue anda:\n");
 		for(int i = awal; i <= akhir; i++){
 			printf("%d ==> %d\n", i, queue[i]);
