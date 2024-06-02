@@ -1,0 +1,5 @@
+.vscode
+main.o
+search.o
+sort.o
+table.o
