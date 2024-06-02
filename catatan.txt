@@ -1,0 +1,16 @@
+cara running dengan terminal:
+
+gcc -c table.c -o table.o
+gcc -c sort.c -o sort.o
+gcc -c search.c -o search.o
+gcc -c main.c -o main.o
+
+gcc main.o search.o sort.o table.o -o main
+./main
+
+cara running dengan Sheel Script:
+chmod +x Makefile.sh
+./Makefile.sh
+
+
+
